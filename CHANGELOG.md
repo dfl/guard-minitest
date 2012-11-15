@@ -10,6 +10,9 @@ Features:
  * Add `:cli` option and deprecate `:seed` and `:verbose` options (Yann
    Lugrin)
 
+ * Add `:all_on_start` and `:all_after_pass` options (David Lowenfels)
+
+
 ## 0.5.0 (Feb 24, 2012)
 
 Bug Fixes:
