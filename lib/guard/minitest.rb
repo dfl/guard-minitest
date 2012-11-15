@@ -8,6 +8,8 @@ module Guard
     autoload :Runner,    'guard/minitest/runner'
     autoload :Inspector, 'guard/minitest/inspector'
 
+    attr_accessor :options
+    
     def initialize(watchers = [], options = {})
       super
 
